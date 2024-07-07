@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website</title>
+  <style>
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: url("images/bg.png");
+        background-size: cover;
+    }
+
+	header {
+            background-color: #333;
+            background-image: url(images/bg.png);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+    nav {
+        background-color: #333;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+        /* Change the color of links on hover */
+	nav a:hover {
+  	    background-color: #76453B;
+	    color: rgb(255, 255, 255);
+    }
+
+    section {
+        padding: 60px;
+        background-color: #333;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+	h3 {
+		color:  #3C290C;
+		font-size: 65px;
+		padding: 50px;
+		font-family: HK Grotesk;
+		text-align: center
+	}
+
+    .move-up {
+         margin-top: -2px;
+    }
+
+    .small-image {
+        width: 30px;
+        height: 30px;
+    }
+
+	div {
+		text-align: justify;
+		text-justify: inter-word;
+		font-Bigshot- one
+	}
+
+	* {
+  		box-sizing: border-box;
+	}
+
+	.column {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+	}
+
+	.row::after {
+  		content: "";
+  		clear: both;
+  		display: table;
+	}
+
+	h2 {
+		color: #3C290C;
+		font-size: 45px;
+		padding: 50px;
+		font-family: HK Grotesk;
+		text-align: center
+	}
+
+	p {
+		color: white;
+	}
+
+	figcaption {
+		color:  #3C290C;
+		text-align: center;
+	}
+
+	footer {
+		background-color: #333;
+		color:#fff;
+		text-align: center;
+		padding: 10px;
+	}
+	</style>
+</head>
+<body>
+    <header>
+        <h1><marquee direction="right"><font=tokohama" color="white" >My Gallery</font></marquee></h1>
+    </header>
+        
+    <nav>
+        <a href="Resume.html">
+            <img src="Images/home_white-removebg-preview.png" class="small-image move-up" align="center">
+        </a>
+        <a href="biodata.html">Biodata</a>
+        <a href="Education.html">Education</a>
+	    <a href="Experience.html">Exprience</a>
+        <a href="Gallery 1.html">Gallery</a>
+        <a href="Contact.html">Contact me</a>
+    </nav>
+
+	<div class="row">
+	    <div class="column">
+		    <img src="images/Family.jpeg" alt="Gambar 1" style="width:100%">
+	    </div>
+	    <div class="column">
+		    <img src="images/Model.jpeg" alt="Gambar 2" style="width:100%">
+	    </div>
+	    <div class="column">
+		    <img src="images/friends.jpeg" alt="Gambar 3" style="width:100%">
+	    </div>
+	</div>
+
+	<div class="row">
+	    <div class="column">
+		    <img src="images/handstand.jpeg" alt="Gambar 4" style="width:100%">
+	    </div>
+	    <div class="column">
+		    <img src="images/gang.jpeg" alt="Gambar 5" style="width:100%">
+	    </div>
+	    <div class="column">
+		    <img src="images/umar.jpeg" alt="Gambar 6" style="width:100%">
+	    </div>
+	</div>
+
+	<div class="row">
+	    <div class="column">
+		    <img src="images/gym.jpeg" alt="Gambar 7" style="width:100%">
+	    </div>
+	    <div class="column">
+		    <img src="images/indo.jpeg" alt="Gambar 8" style="width:100%">
+	    </div>
+	    <div class="column">
+		    <img src="images/qama.jpeg" alt="Gambar 9" style="width:100%">
+	    </div>
+	</div>
+
+<footer>
+	<marquee direction="left">&copy; 2024 Afiq's website.</marquee>
+</footer>
+</body>
+</html>
